@@ -1,5 +1,5 @@
 import React from "react";
-//import Footer from "../../Shared/Footer/Footer";
+import Footer from "../../Shared/Footer/Footer";
 import Banner from "../Banner/Banner";
 import Contact from "../Contact/Contact";
 import Info from "../Info/Info";
@@ -9,14 +9,15 @@ import Testimoial from "../Testimonial/Testimoial";
 
 const Home = () => {
   return (
-    <div className="px-12">
+    <>
       <Banner></Banner>
       <Info></Info>
       <Services></Services>
       <MakeAppointment></MakeAppointment>
       <Testimoial></Testimoial>
-     <Contact prop={'Submit'}></Contact>
-    </div>
+      <Contact></Contact>
+      <Footer></Footer>
+    </>
   );
 };
 
