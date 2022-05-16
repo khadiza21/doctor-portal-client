@@ -10,12 +10,12 @@ const AppointmentBanner = ({date,setDate}) => {
       footer = <p>You picked {format(date, 'PP')}.</p>;
     }
   return (
-    <div class="hero min-h-screen ">
-      <div class="hero-content flex-col lg:flex-row-reverse">
+    <div className="hero min-h-screen ">
+      <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src={chair}
           alt=""
-          class="max-w-sm rounded-lg shadow-2xl"
+          className="max-w-sm rounded-lg shadow-2xl"
         />
         <div>
         <DayPicker 
